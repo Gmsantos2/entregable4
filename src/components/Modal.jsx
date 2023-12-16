@@ -38,7 +38,7 @@ const Modal = ({
                         <span className="text-red-500">*</span>
                     </span>
                     <input type="text" className="text-black border-2 rounded-md p-1 outline-none" placeholder="Email"
-                        {...register("email")} />
+                        {...register("email")} required />
                 </label>
                 <label className="grid gap-2" >
                     <span>
@@ -46,7 +46,7 @@ const Modal = ({
                         <span className="text-red-500">*</span>
                     </span>
                     <input name="password" type="text" className="text-black border-2 rounded-md p-1 outline-none" placeholder="Password"
-                        {...register("password")} />
+                        {...register("password")} required />
                 </label>
                 <label className="grid gap-2" >
                     <span>
@@ -54,7 +54,7 @@ const Modal = ({
                         <span className="text-red-500">*</span>
                     </span>
                     <input name="first_name" type="text" className="text-black border-2 rounded-md p-1 outline-none" placeholder="First Name"
-                        {...register("first_name")} />
+                        {...register("first_name")} required/>
                 </label>
                 <label className="grid gap-2" >
                     <span>
@@ -62,7 +62,7 @@ const Modal = ({
                         <span className="text-red-500">*</span>
                     </span>
                     <input name="last_name" type="text" className="text-black border-2 rounded-md p-1 outline-none" placeholder="Last Name"
-                        {...register("last_name")} />
+                        {...register("last_name")} required />
                 </label>
                 <label className="grid gap-2" >
                     <span>
@@ -70,7 +70,7 @@ const Modal = ({
                         <span className="text-red-500">*</span>
                     </span>
                     <input name="birthday" type="date" className="text-black border-2 rounded-md p-1 outline-none" placeholder="Birthday"
-                        {...register("birthday")} />
+                        {...register("birthday")} required />
                 </label>
                 <label className="grid gap-2" >
                     <span>
@@ -78,7 +78,7 @@ const Modal = ({
                         <span className="text-red-500">*</span>
                     </span>
                     <input name="image_url" type="text" className="text-black border-2 rounded-md p-1 outline-none" placeholder="Image"
-                        {...register("image_url")} />
+                        {...register("image_url")} required />
                 </label>
                 <button className="bg-indigo-950 hover:bg-indigo-800 text-white font-bold py-2 px-4 rounded" >
                     {textButtonSubmit}

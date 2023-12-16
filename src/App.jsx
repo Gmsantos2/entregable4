@@ -94,7 +94,7 @@ function App() {
           className="bg-indigo-950 text-white font-semibold p-2 rounded-sm hover:bg-indigo-800 transition-all flex gap-1 items-center"
           onClick={handleOpenModal}
         >
-          Crear Usuario</button>
+          Create User</button>
       </header>
       <Modal 
       showModal={showModal} 
