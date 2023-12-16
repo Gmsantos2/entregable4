@@ -1,8 +1,9 @@
 import axios from "axios";
 import { useEffect, useState } from "react"
-import UserList from "./components/userList";
+
 import Modal from "./components/Modal";
 import { useForm } from "react-hook-form";
+import UserList from "./components/UserList";
 
 
 const BASE_URL = "https://users-crud.academlo.tech";
